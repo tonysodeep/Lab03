@@ -191,12 +191,6 @@
             this.AverageScore.Name = "AverageScore";
             this.AverageScore.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1075, 450);
-            // 
             // studentData
             // 
             this.studentData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -211,6 +205,12 @@
             this.studentData.TabIndex = 1;
             this.studentData.Text = "dataGridView1";
             this.studentData.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.studentData_CellClick);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1075, 450);
             this.Controls.Add(this.bt_xoa);
             this.Controls.Add(this.bt_sua);
             this.Controls.Add(this.bt_add);
